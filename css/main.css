@@ -1,0 +1,83 @@
+.features .glyphicon {
+    font-size: 32px;
+    margin-top: 10px;
+}
+.panel-footer {
+    margin-top: 10px;
+    background-color: #222;
+    color: #ddd;
+}
+.quote {
+    background-color: #222;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+blockquote p {
+    color: #ddd;
+}
+blockquote footer {
+    color: #bbb;
+}
+.space {
+    margin-bottom: 70px;
+}
+.space-plus {
+    margin-bottom: 80px;
+}
+.space-minus {
+    margin-bottom: 50px;
+}
+.space-up {
+    margin-top: 70px;
+}
+.article-left {
+    margin-right: 10px;
+}
+.article-middle {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.article-right {
+    margin-left: 10px;
+}
+#fade-img img {
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
